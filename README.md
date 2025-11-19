@@ -8,7 +8,7 @@ A single repository with two self-contained Flask microservices:
 Each service has its own `Dockerfile` and `requirements.txt`.  
 A GitHub Actions workflow detects changes per service and builds & **pushes** only the changed image to **GHCR**.
 
-> ⚠️ Demo-only auth using a signed token (itsdangerous). Do **not** use in production.
+> ⚠️ Demo-only auth using a signed token (itsdangerous). Do **not** use in production. 
 
 ---
 
